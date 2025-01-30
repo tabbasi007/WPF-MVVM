@@ -1,0 +1,28 @@
+SUMMARY:
+
+1. Used 'Microsoft.Extensions.Logging' package/lib for logging. Built-in and scalable.
+
+2. Didn't use Repository Pattern as it would be an overkill to do it for such a small use case / project.
+
+3. Used Exception Handling and user-friendly messages for normal users and with details for technical users. (since it's just a placeholder for now)
+
+4. UI STRUCTURE:
+	4.1) 3 simpler buttons and automatic read on load and each refresh/update.
+	4.2) One grid for showing current rows/records in the DB.
+
+
+PROJECT STRUCTURE:
+1. Project 1: API/BE using ASP.NET Core Web API
+2. Project 2: UI/FE using WPF
+3. Project 3: BI and DAL using DotNet (class lib)
+
+STACK:
+1. DotNet 8 (as required)
+2. ASP.NET Core
+3. SQLite as DB
+4. EF Core as ORM
+
+
+STEPS TO RUN:
+1. Run the BE/API (WebApi007) project and leave it there. You can run it by doing CD into the project folder and executing the dotnet run command. Or you can load the solution into VS IDE and start the project.
+2. Run the FE/UI (App_WPF_007) project using same procedure as above for the other project.
